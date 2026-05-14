@@ -1,6 +1,6 @@
 cask "gangz1o-clipaste" do
-  version "2.0.4"
-  sha256 "a160ccdc18bc8845c5aae2696126951da3064d6724be49b8d86aad672d767015"
+  version "2.0.5"
+  sha256 "d34357d753c136f745bb5f21cbd58de342e8f57eef7dd465567d656fd138cf5d"
 
   url "https://github.com/gangz1o/Clipaste/releases/download/v#{version}/Clipaste-v#{version}.dmg"
   name "Clipaste"
