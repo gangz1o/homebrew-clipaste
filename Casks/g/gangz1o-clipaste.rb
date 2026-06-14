@@ -1,6 +1,6 @@
 cask "gangz1o-clipaste" do
-  version "2.1.7"
-  sha256 "dcb8775c273dd27ea9f6958736c38e9852e8378484d20414fa902b5a3067103c"
+  version "2.1.8"
+  sha256 "37315d7dc63f045b75f18e4c00328f22fe06e329acf2cf02dc3a6975054c4b32"
 
   url "https://github.com/gangz1o/Clipaste/releases/download/v#{version}/Clipaste-v#{version}.dmg"
   name "Clipaste"
@@ -13,7 +13,7 @@ cask "gangz1o-clipaste" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Clipaste.app"
 
